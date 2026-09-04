@@ -1,21 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=250&section=header&text=QA%20Automation%20Framework&fontSize=50&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=250&section=header&text=QuickBite%20QA%20Automation&fontSize=50&fontColor=ffffff&animation=fadeIn"/>
 
-# 🚀 QA Automation Testing Framework
+# 🚀 QuickBite QA Automation
 
-### 🧪 Professional Web Automation Framework using Python & Selenium
+### 🧪 Web Automation Testing using Python, Selenium & Pytest
 
 <p>
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python"/>
 <img src="https://img.shields.io/badge/Selenium-WebDriver-green?style=for-the-badge&logo=selenium"/>
 <img src="https://img.shields.io/badge/Pytest-Testing-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge"/>
-<img src="https://img.shields.io/github/stars/tasnem-tech/qa-automation-project?style=for-the-badge"/>
-<img src="https://img.shields.io/github/forks/tasnem-tech/qa-automation-project?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Browser-Chrome-yellow?style=for-the-badge&logo=googlechrome"/>
+<img src="https://img.shields.io/badge/Tests-10-success?style=for-the-badge"/>
 </p>
 
-### ⚡ Automating repetitive testing with Python, Selenium & Pytest
+### ⚡ Automated functional and navigation testing for the QuickBite food ordering website
 
 </div>
 
@@ -23,221 +22,77 @@
 
 # 📖 Overview
 
-This project is a **professional QA Automation Testing Framework** built to automate browser testing, improve software quality, and reduce repetitive manual testing.
+This project is a **Web UI Automation Testing project** created using **Python, Selenium WebDriver, and Pytest**.
 
-It demonstrates modern software testing practices including:
+The project automates important user-facing functionalities of the **QuickBite food ordering website**, including homepage verification, navigation, search, restaurant sorting, cart navigation, and food ordering navigation.
 
-- 🔐 Login Automation
-- 📝 Form Validation
-- 🌐 Browser Automation
-- 📊 Test Reporting
-- 🔄 Regression Testing
-- ✅ Functional Testing
+The goal is to demonstrate practical **QA Automation**, including:
 
----
-
-# ✨ Features
-
-| Feature | Status |
-|----------|:------:|
-| 🔐 Login Testing | ✅ |
-| 📝 Registration Testing | ✅ |
-| 🌐 Browser Automation | ✅ |
-| 📋 Form Validation | ✅ |
-| 🚨 Error Message Verification | ✅ |
-| 🔄 Regression Testing | ✅ |
-| 📊 HTML Test Reports | ✅ |
-| 📸 Screenshot Capture | ✅ |
+- 🌐 Web UI Testing
+- 🧪 Functional Testing
+- 🔄 Navigation Testing
+- ✅ Assertion & Validation
+- 🤖 Selenium WebDriver Automation
+- 📋 Pytest Test Execution
 
 ---
 
-# 🏗 Framework Architecture
+# 🌐 Application Under Test
+
+**QuickBite – Food Ordering Website**
+
+🔗 https://quickbite-varshith.netlify.app/
+
+QuickBite is a food ordering web application that provides functionality such as:
+
+- Restaurant browsing
+- Food item browsing
+- Search
+- Cart
+- Ordering
+- Restaurant sorting
+- User profile functionality
+
+---
+
+# ✨ Test Coverage
+
+The project currently contains **10 automated Selenium tests**.
+
+| # | Test Scenario | Status |
+|---|---------------|:------:|
+| 1 | Verify QuickBite homepage title | ✅ |
+| 2 | Verify homepage elements and content | ✅ |
+| 3 | Verify Order Now button | ✅ |
+| 4 | Verify Search visibility and click | ✅ |
+| 5 | Verify restaurant sorting option | ✅ |
+| 6 | Verify Cart visibility and click | ✅ |
+| 7 | Verify Search navigation | ✅ |
+| 8 | Verify Cart navigation | ✅ |
+| 9 | Verify Home navigation | ✅ |
+| 10 | Verify Order Now navigation | ✅ |
+
+---
+
+# 🏗️ Automation Architecture
 
 ```text
-                    Test Cases
+                  QuickBite Website
                          │
                          ▼
-               Selenium WebDriver
+                  Selenium WebDriver
                          │
                          ▼
-                Browser Automation
+                  Browser Interaction
                          │
                          ▼
-               Assertions & Validation
+                  Element Identification
                          │
                          ▼
-              HTML Reports & Screenshots
-```
-
----
-
-# 📂 Project Structure
-
-```text
-QA-Automation-Framework/
-│
-├── 📂 tests
-│   ├── test_login.py
-│   ├── test_registration.py
-│   └── test_forms.py
-│
-├── 📂 pages
-│   ├── base_page.py
-│   ├── login_page.py
-│   └── registration_page.py
-│
-├── 📂 reports
-│
-├── 📂 screenshots
-│
-├── 📂 utils
-│
-├── 📜 requirements.txt
-├── 📜 README.md
-└── 📜 LICENSE
-```
-
----
-
-# 💻 Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| 🐍 Python | Programming |
-| 🧪 Selenium | Browser Automation |
-| ⚙️ Pytest | Test Runner |
-| 🌍 ChromeDriver | Browser Driver |
-| 📊 HTML Reports | Reporting |
-| 🖥 GitHub | Version Control |
-
----
-
-# 📊 Automated Test Coverage
-
-| Scenario | Result |
-|----------|:------:|
-| Login | ✅ |
-| Invalid Login | ✅ |
-| Registration | ✅ |
-| Form Validation | ✅ |
-| Required Fields | ✅ |
-| Browser Navigation | ✅ |
-| UI Verification | ✅ |
-
----
-
-# 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/tasnem-tech/qa-automation-project.git
-```
-
-Go to the project
-
-```bash
-cd qa-automation-project
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run Tests
-
-Run all tests
-
-```bash
-pytest
-```
-
-Run login tests
-
-```bash
-pytest tests/test_login.py
-```
-
-Generate HTML report
-
-```bash
-pytest --html=reports/report.html
-```
-
----
-
-# 📸 Screenshots
-
-<div align="center">
-
-| Login Test | HTML Report |
-|------------|-------------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
-
-</div>
-
----
-
-# 📈 Roadmap
-
-- ✅ Login Automation
-- ✅ Registration Automation
-- ✅ Form Validation
-- 🔄 Cross-browser Testing
-- 🔄 Docker Support
-- 🔄 Jenkins CI/CD
-- 🔄 GitHub Actions
-- 🔄 Parallel Execution
-- 🔄 Allure Reporting
-
----
-
-# 🎯 Skills Demonstrated
-
-<div align="center">
-
-| QA | Automation | Programming |
-|----|------------|-------------|
-| Selenium | Pytest | Python |
-| Regression Testing | Functional Testing | Test Automation |
-| Bug Verification | HTML Reports | Git & GitHub |
-
-</div>
-
----
-
-# 🌟 Why This Project?
-
-✔ Demonstrates real-world QA automation
-
-✔ Uses industry-standard tools
-
-✔ Easily expandable
-
-✔ Clean project architecture
-
-✔ Recruiter-friendly portfolio project
-
----
-
-<div align="center">
-
-# 👩‍💻 Tasnem Islam Prome
-
-### QA Automation Engineer • Python Developer • Software Tester
-
-<p>
-<a href="https://github.com/tasnem-tech">
-<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
-</a>
-</p>
-
-⭐ **If you like this project, consider giving it a Star!**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,100:0F2027&height=120&section=footer"/>
-
-</div>
+                    User Actions
+                         │
+                         ▼
+                   Assertions
+                         │
+                         ▼
+                    Pytest Result
