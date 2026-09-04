@@ -1,12 +1,16 @@
+import pytest
 from selenium import webdriver
-import time
 
-driver = webdriver.Chrome()
 
-driver.get("https://example.com")
+@pytest.fixture
+def driver():
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    yield driver
+    driver.quit()
 
-print(driver.title)
 
-time.sleep(3)
+def test_quickbite_homepage(driver):
+    driver.get("https://quickbite-varshith.netlify.app/")
 
-driver.quit()
+    assert "QuickBite" in driver.title
